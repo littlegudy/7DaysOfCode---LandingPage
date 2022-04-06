@@ -150,7 +150,7 @@ a {
 }
 
 .talentos div p:nth-child(2) {
-    font-size: 36px;
+    font-size: 33px;
     font-weight: 600;
     color: #101828;
 }
@@ -160,7 +160,6 @@ a {
     font-weight: 400;
     color: #667085;
     margin: 0 0 64px;
-    word-spacing: 6px;
 }
 
 .img-reuniao {
@@ -227,4 +226,74 @@ a {
     font-weight: 500;
     color: #667085;
     margin: 32px 0 0 0;
+}
+
+
+.container-recomendacoes {
+    width: 100%;
+    margin-top: 96px;
+}
+
+.caixa-vermelha {
+    background: rgb(195, 25, 25, 0.3);
+    padding: 64px;
+    width: 1088px;
+
+}
+
+.caixa-vermelha p:first-child {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--main-color);
+    padding-top: 32px;
+    width: 100%;
+    text-align: center;
+}
+
+.recomendacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.recomendacoes p:last-child {
+    font-size: 36px;
+    font-weight: 500;
+    color: #101828;
+
+}
+
+.container-recomendacoes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.imagem-avatar {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.julia {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.julia p:first-child {
+    font-size: 16px;
+    font-weight: 500;
+    color: #101828;
+}
+
+.julia p:last-child {
+    font-size: 14px;
+    font-weight: 400;
+    color: #667085;
 }
